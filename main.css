@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header li{
+    display:inline;
+}
+header li a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: whitesmoke;
+    padding-left: 8px;
+}
+.container{
+    width: 1366px;
+    margin: 0 auto 0 auto;
+}
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.articles article img{
+    height: 200px;
+    width: 100%;
+}
+.articles article{
+    width:20%;
+}
+header .container{
+    display: flex;
+    align-items:baseline;
+    justify-content: space-between;
+}
+BODY > header{
+    background-color: rgb(6, 6, 7,0.85);
+    padding: 16px 0;
+    border-style:solid;
+}
+section{
+    padding: 16px 0;
+}
+section h2,
+.articles article{
+    margin-bottom: 16px;
+}
+.articles article h3{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.articles article a{
+    background-color: yellowgreen;
+    color: black;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13px;
+    font-style: italic;
+    margin-top: 8px;
+    justify-content:;
+    display: flex;
+}
+.articles article a:hover{
+    text-decoration: underline;
+}
+.articles article p,
+.articles article a{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.articles article h3{
+    font-size: 24px;
+}
+section h2{
+    font-size: 32px;
+    border-style: solid;
+    border-color: yellowgreen;
+    justify-content: center;
+    display: flex;
+}
+.container h1{
+    font-size: 40px;
+    color: whitesmoke;
+}
+#sports{
+    background-color: rgb(0, 255, 0, 0.2);
+}
+#economia{
+    background-color: rgb(218, 165, 32, 0.3);
+}
+#tecnology{
+    background-color: rgb(0, 255, 255, 0.3);
+}
+#economia .articles article a{
+    background-color:rgb(218, 165, 32) ;
+}
+#Música{
+    background-color:rgb(255, 60, 0, 0.3)
+}
+#tecnology .articles article a{
+    background-color: rgb(0, 255, 255);
+}
+#Música .articles article a{
+    background-color: rgb(255, 60, 50);
+
