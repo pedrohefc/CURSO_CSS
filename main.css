@@ -28,6 +28,9 @@ header li a{
 }
 .articles article{
     width:20%;
+    min-height: 400px;
+    display: flex;
+    flex-direction:column;
 }
 header .container{
     display: flex;
@@ -59,8 +62,8 @@ section h2,
     font-weight: bold;
     font-size: 13px;
     font-style: italic;
-    margin-top: 8px;
-    justify-content:;
+    margin-top: auto;
+    justify-content:baseline;
     display: flex;
 }
 .articles article a:hover{
